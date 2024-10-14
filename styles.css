@@ -33,7 +33,7 @@ body {
     overflow-y: auto;
     text-align: center;
     border-radius: 8px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
 }
 
 .side-menu h2 {
@@ -68,7 +68,7 @@ body {
 }
 
 header {
-    background-color: #013569;
+    background-color: #02366b;
     text-align: center;
     padding: 2rem;
     border-radius: 8px;
@@ -114,8 +114,13 @@ body {
     background-image: url('abstract.png');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
 }
 
+p {
+    line-height: 1.6;  
+    margin-bottom: 1rem; 
+}
+
+ul li {
+    margin-bottom: 0.75rem;
+}
